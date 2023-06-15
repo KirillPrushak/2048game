@@ -1394,6 +1394,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1210849202}
+  - component: {fileID: 1210849203}
   m_Layer: 5
   m_Name: Board
   m_TagString: Untagged
@@ -1423,6 +1424,32 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 500, y: 500}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1210849203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1210849201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6496f0a9c596e04b974c5b0f6957562, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tilePrefab: {fileID: 8804657290966243966, guid: cc6d43a809e98be4c96aa500e30de9ef, type: 3}
+  tileStates:
+  - {fileID: 11400000, guid: 4d5353980173cb74e9b42fc63abe30bf, type: 2}
+  - {fileID: 11400000, guid: ba591a9f957e71b4d990e8950329e93a, type: 2}
+  - {fileID: 11400000, guid: 20b02b3209f2f5545b9fe35be9d0c272, type: 2}
+  - {fileID: 11400000, guid: 56cc3bceb8885cb41a8b65d9e26b98a5, type: 2}
+  - {fileID: 11400000, guid: 50281c3c707d067409671f71fa2489fe, type: 2}
+  - {fileID: 11400000, guid: f03863a244efbc241a4381e64a4f1622, type: 2}
+  - {fileID: 11400000, guid: c201c120fe95e0542b671b746f542c1d, type: 2}
+  - {fileID: 11400000, guid: b7537a4126c2fc14a8bb4894058e6132, type: 2}
+  - {fileID: 11400000, guid: 65b92585cada39649bd4eebdb05f70fb, type: 2}
+  - {fileID: 11400000, guid: 17ef89da69d90f84e91930f5d38c65af, type: 2}
+  - {fileID: 11400000, guid: f3799f023ec1dc24592b7be2aad07e54, type: 2}
+  grid: {fileID: 0}
 --- !u!1 &1243446302
 GameObject:
   m_ObjectHideFlags: 0
