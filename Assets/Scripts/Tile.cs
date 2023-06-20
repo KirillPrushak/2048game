@@ -6,7 +6,7 @@ using UnityEngine.UI;
 
 public class Tile : MonoBehaviour
 {
-    public TitleState state { get; private set; }
+    public TileState state { get; private set; }
     public TileCell cell { get; private set; }
     public int number { get; private set; }
     private Image background;
@@ -18,10 +18,10 @@ public class Tile : MonoBehaviour
         text = GetComponentInChildren<TextMeshProUGUI>();
     }
 
-    public void SetState(TitleState state, int numbers)
+    public void SetState(TileState state) //, int numbers
     {
         this.state = state;
-        this.number = number;
+       //this.number = number;
         
         //Обновление цвета
         background.color = state.backgroundColor;
